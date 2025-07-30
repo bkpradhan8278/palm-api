@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from firebase_admin import credentials, firestore, initialize_app
 
 # Firebase Admin initialization with Render secret file
-cred = credentials.Certificate("/app/serviceAccount.json")
+cred = credentials.Certificate("serviceAccount")
 initialize_app(cred)
 db = firestore.client()
 
