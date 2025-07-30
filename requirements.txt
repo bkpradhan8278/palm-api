@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 pillow
-mediapipe
 numpy
 requests
 openai
