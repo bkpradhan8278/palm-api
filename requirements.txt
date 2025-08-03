@@ -4,4 +4,7 @@ pillow
 numpy
 requests
 openai
+mediapipe
 firebase-admin
+opencv-python
+protobuf==3.20.0
